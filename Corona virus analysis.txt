@@ -1,22 +1,41 @@
 The COVID-19 pandemic has highlighted the importance of data-driven insights in understanding its spread. 
 As a data analyst, I analyzed a COVID-19 dataset to uncover valuable insights. By conducting a thorough analysis, 
 we aimed to identify patterns and trends to understand virus transmission better, ultimately aiding the fight against the pandemic and protecting public health.
+using ssms and sql to answre same quations :
 
-Dataset Description: 
+Q1. Write a code to check NULL values
 
-Province: Geographic subdivision within a country/region.
-Country_Region: Geographic entity where data is recorded.
-Latitude: North-south position on Earth's surface.
-Longitude: East-west position on Earth's surface.
-Date: Recorded date of CORONA VIRUS data.
-Confirmed: Number of diagnosed CORONA VIRUS cases.
-Deaths: Number of CORONA VIRUS-related deaths.
-Recovered: Number of recovered CORONA VIRUS cases
+--Q2. If NULL values are present, update them with zeros for all columns. 
 
-Insights:
-COVID-19 Pandemic duration: January 22, 2020, to June 13, 2021.
-India has the highest number of recovered cases.
-Samoa, Kiribati, Dominica, and the Marshall Islands have the lowest death counts.
-The US leads in confirmed COVID-19 cases.
-Peak confirmed cases occurred in April 2021.
-Peak death rate in January 2021.
+-- Q3. check total number of rows
+
+-- Q4. Check what is start_date and end_date
+
+-- Q5. Number of month present in dataset
+
+-- Q6. Find monthly average for confirmed, deaths, recovered
+
+-- Q7. Find most frequent value for confirmed, deaths, recovered each month 
+
+-- Q8. Find minimum values for confirmed, deaths, recovered per year
+
+-- Q9. Find maximum values of confirmed, deaths, recovered per year
+
+-- Q10. The total number of case of confirmed, deaths, recovered each month
+
+-- Q11. Check how corona virus spread out with respect to confirmed case
+--      (Eg.: total confirmed cases, their average, variance & STDEV )
+
+-- Q12. Check how corona virus spread out with respect to death case per month
+--      (Eg.: total confirmed cases, their average, variance & STDEV )
+
+-- Q13. Check how corona virus spread out with respect to recovered case
+--      (Eg.: total confirmed cases, their average, variance & STDEV )
+
+-- Q14. Find Country having highest number of the Confirmed case
+
+-- Q15. Find Country having lowest number of the death case
+
+-- Q16. Find top 5 countries having highest recovered case
+
+
